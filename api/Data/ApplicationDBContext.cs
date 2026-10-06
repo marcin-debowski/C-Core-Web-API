@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using api.Models;
-
+using api.Data;
 namespace api.Data
 {
     public class ApplicationDBContext : DbContext
